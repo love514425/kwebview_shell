@@ -35,7 +35,7 @@ public class MainActivity extends Activity {
         mWebView.getSettings().setLoadWithOverviewMode(true);//和setUseWideViewPort(true)一起解决网页自适应问题
         mWebView.getSettings().setAppCacheEnabled(true);//是否使用缓存
         mWebView.getSettings().setDomStorageEnabled(true);//DOM Storage
-        mWebView.loadUrl("http://xw.qq.com");d
+        mWebView.loadUrl("http://xw.qq.com");
     }
 
     class KWebViewClient extends WebViewClient {
