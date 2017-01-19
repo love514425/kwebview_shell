@@ -1,6 +1,6 @@
 kwebview接入步骤：
 - 1，将kwebview.aar包含到工程中。
-- 2，在app build.gradle android加入 
+- 2，在app build.gradle android 中加入 
     aaptOptions {
        noCompress "dat", "bin", "pak"
     }
